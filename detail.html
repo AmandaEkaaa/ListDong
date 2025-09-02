@@ -63,6 +63,19 @@
       color: white;
       border-color: #666;
     }
+    .genre-dropdown {
+  background-color: #212529 !important; /* Background gelap */
+  border-radius: 10px;
+  padding: 10px 0;
+  transform: translateX(-30px); /* Supaya gak terlalu kanan */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.genre-dropdown .dropdown-item {
+  color: white !important;
+  font-size: 14px;
+  padding: 5px 0;
+}
 
     footer {
       background-color: #000;
@@ -94,14 +107,14 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom px-5 py-3">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img src="img/LogoWEB.png" alt="Logo" height="80">
     </a>
     <form class="d-flex mx-auto" role="search" style="width: 40%;">
       <input class="form-control me-2 rounded-pill" type="search" placeholder="Search..." aria-label="Search">
     </form>
     <div class="d-flex align-items-center gap-3 position-relative">
-      <a class="nav-link text-white" href="#">BOOKMARK</a>
+      <a class="nav-link text-white" href="bm.html">BOOKMARK</a>
       <div class="dropdown">
         <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           GENRE
@@ -133,12 +146,13 @@
       <img src="PD/YLK.webp" alt="Poster" class="mb-3">
 
       <!-- Bookmark Button -->
-      <button class="btn btn-purple d-flex align-items-center justify-content-center gap-2 px-4 py-2 rounded-pill">
+      <!-- Bookmark Button -->
+        <a href="bm.HTML" class="btn btn-purple d-flex align-items-center justify-content-center gap-2 px-4 py-2 rounded-pill">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
-          <path d="M20.8 4.6c-1.4-1.6-3.8-1.6-5.2 0l-.6.7-.6-.7c-1.4-1.6-3.8-1.6-5.2 0-1.4 1.6-1.4 4.1 0 5.7l5.8 6.4 5.8-6.4c1.4-1.6 1.4-4.1 0-5.7z"/>
-        </svg>
-        Bookmark
-      </button>
+        <path d="M20.8 4.6c-1.4-1.6-3.8-1.6-5.2 0l-.6.7-.6-.7c-1.4-1.6-3.8-1.6-5.2 0-1.4 1.6-1.4 4.1 0 5.7l5.8 6.4 5.8-6.4c1.4-1.6 1.4-4.1 0-5.7z"/>
+          </svg>
+             Bookmark
+        </a>
     </div>
     <div class="col-md-9">
       <div class="detail-title">Throne of Seal Movie: Electrolux</div>
