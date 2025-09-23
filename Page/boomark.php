@@ -235,7 +235,7 @@
     </form>
 
   <div class="d-flex align-items-center gap-3 position-relative">
-  <a class="nav-link text-white" href="bm.html">BOOKMARK</a>
+  <a class="nav-link text-white" href="#">BOOKMARK</a>
 
 <div class="dropdown">
   <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -273,7 +273,7 @@
     <!-- Kiri: Popular + Latest Release -->
     <div class="col-lg-9">
       <div class="card bg-dark-gray text-white p-3 mb-4">
-        <h2 class="section-title">Completed</h2>
+        <h2 class="section-title">Bookmark</h2>
         <div class="row">
           <!-- Card Anime -->
          <div class="col-5-grid mb-4 px-2">
@@ -363,177 +363,6 @@
             </div>
           </div>
          
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (6).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (7).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (8).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                 <a href="detail.html">
-                     <img src="C/C (9).webp" class="card-img-top" alt="New Release">
-                </a>
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Throne of Seal Movie: Electrolux</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (10).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (11).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (12).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (13).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (13).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
-         
-         <div class="col-5-grid mb-4 px-2">
-            <div class="card bg-dark text-white anime-card-custom">
-              <div class="position-relative">
-                <div class="ribbon">
-                  <span>COMPLETED</span>
-                </div>
-                <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <img src="C/C (13).webp" class="card-img-top" alt="New Release">
-                <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
-                <span class="badge bg-warning text-dark position-absolute bottom-0 end-0 m-2">Sub</span>
-              </div>
-              <div class="card-body text-center">
-                <h6 class="card-title mb-0">Tales of Hearding God</h6>
-              </div>
-            </div>
-          </div>
          
          
         </div>
@@ -541,14 +370,14 @@
         <nav aria-label="Page navigation">
   <ul class="pagination justify-content-center custom-pagination mt-4 mb-2">
     <li class="page-item active"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="v2.html">2</a></li>
     <li class="page-item"><a class="page-link" href="#">Next »</a></li>
   </ul>
 </nav>
       </div>
     </div>
 
-    <!-- Kanan: Top Ranking -->
+   <!-- Kanan: Top Ranking -->
     <div class="col-lg-3">
       <div class="ranking-section">
         <h2 class="section-title">Top Ranking</h2>
@@ -649,19 +478,3 @@
     </div>
   </div>
 </div>
-
-
-<footer>
-  <div class="container">
-    <p>Copyright &copy; 2025 AnimeList. All Rights Reserved.</p>
-    <p>Disclaimer: This site is fictional and for educational or portfolio purposes only.</p>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    
-</body>
-</html>

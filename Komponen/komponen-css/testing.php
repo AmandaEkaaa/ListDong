@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon</title>
   <style>
     body, html {
       height: 100%;
@@ -56,13 +50,3 @@
       to {opacity: 1; transform: translateY(0);}
     }
   </style>
-</head>
-<body>
-  <div class="hero">
-    <h1>🚀 Coming Soon</h1>
-    <p>Website kami sedang dalam pengembangan.<br>Nantikan segera kehadiran kami!</p>
-    <a href="index.html" class="btn">Notify Me</a>
-  </div>
-</body>
-</html>
-

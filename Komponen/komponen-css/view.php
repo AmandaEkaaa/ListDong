@@ -1,61 +1,8 @@
-<<<<<<<< HEAD:Komponen/komponen-css/home.php
 <style>
-        body {
-========
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ListDong</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <style>
-    body {
->>>>>>>> 0d0d2c715785d692a4d560c152930df494ef011c:Komponen/Header.php
+     body {
       background-color: black;
       color: white;
       font-family: 'Segoe UI', sans-serif;
-    }
-    .hero {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     padding: 20px 60px 60px 60px;
-     min-height: 100vh; /* ini penting agar 1 layar penuh */
-     background-color: #000; /* opsional, untuk warna latar */
-  }
-
-.hero-img img {
- max-width: 100%;
-  height: auto;
-  object-fit: contain;}
-
-    .hero-text {
-      max-width: 50%;
-      z-index: 2;
-    }.hero-text {
-  animation: fadeIn 1s ease-in-out forwards;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-    .hero-text h1 {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-    .hero-text p {
-      font-size: 1.2rem;
-    }
-    .hero-img {
-      max-width: 45%;
-      z-index: 1;
-    }
-    .hero-img img {
-      width: 100%;
-      height: auto;
     }
     .navbar-custom {
       background-color: transparent;
@@ -76,8 +23,7 @@
    .bg-purple {
   background-color: #a020f0;
 }
-
-.bg-dark-gray {
+    .bg-dark-gray {
     background-color: #3B3B3B !important;
   }
 
@@ -114,6 +60,17 @@
     font-weight: bold;
     font-size: 0.75rem;
     }
+
+    .col-5-grid {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-5-grid {
+    width: 20%;
+  }
+}
+
 
 
 .ranking-card {
@@ -236,9 +193,22 @@
       padding: 20px 0;
       font-size: 0.9rem;
     }
-<<<<<<<< HEAD:Komponen/komponen-css/home.php
+    .custom-pagination .page-link {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #c800ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.custom-pagination .page-link:hover {
+  color: #c800ff;
+}
+
+
 </style>
-========
-  </style>
-</head>
->>>>>>>> 0d0d2c715785d692a4d560c152930df494ef011c:Komponen/Header.php

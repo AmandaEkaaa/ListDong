@@ -1,0 +1,3 @@
+[submodule "chatdong"]
+	path = chatdong
+	url = https://github.com/cikazst/chatdong.git
