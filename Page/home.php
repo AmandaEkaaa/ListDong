@@ -1,3 +1,19 @@
+<body>
+
+<!-- Navbar -->
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>List it. Watch it. Love it.</h1>
+    <p>Temukan donghua favoritmu di <strong>ListDong</strong>. Semua episode, semua genre – satu tempat, semua lengkap.</p>
+  </div>
+  <div class="hero-img">
+    <img src="img/Bg.png" class="img-fluid" alt="Karakter">
+  </div>
+</section>
+
 <div class="container my-5">
   <div class="row">
     <!-- Kiri: Popular + Latest Release -->
@@ -604,6 +620,34 @@
    
   </div>
 
- <a href="Page/" class="btn btn-purple mt-3 mx-auto d-block">View All</a>
+ <a href="view.html" class="btn btn-purple mt-3 mx-auto d-block">View All</a>
+
+
+
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
