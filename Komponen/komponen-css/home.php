@@ -1,17 +1,14 @@
-<<<<<<<< HEAD:Komponen/komponen-css/home.php
-<style>
-        body {
-========
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ListDong</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
   <style>
     body {
->>>>>>>> 0d0d2c715785d692a4d560c152930df494ef011c:Komponen/Header.php
       background-color: black;
       color: white;
       font-family: 'Segoe UI', sans-serif;
@@ -90,7 +87,7 @@
 
 .anime-card-custom .card-title {
   display: -webkit-box;
-  -webkit-line-clamp: 3;         /* Maksimal 2 baris */
+  -webkit-line-clamp: 3;         
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -236,9 +233,7 @@
       padding: 20px 0;
       font-size: 0.9rem;
     }
-<<<<<<<< HEAD:Komponen/komponen-css/home.php
+
 </style>
-========
+
   </style>
-</head>
->>>>>>>> 0d0d2c715785d692a4d560c152930df494ef011c:Komponen/Header.php
