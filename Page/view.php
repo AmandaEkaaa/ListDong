@@ -1,3 +1,6 @@
+<?php include "Komponen/Header.php"?>
+<?php include "Komponen/komponen-css/view.php";?> 
+<?php include "Komponen/navbar.php" ?>
 <div class="container my-5">
   <div class="row">
     <!-- Kiri: Popular + Latest Release -->
@@ -30,7 +33,7 @@
                   <span>COMPLETED</span>
                 </div>
                 <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                <a href="#">
+                <a href="">
                      <img src="C/C (2).webp" class="card-img-top" alt="New Release">
                 </a>
                 <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>
@@ -151,7 +154,7 @@
                   <span>COMPLETED</span>
                 </div>
                 <span class="badge badge-orange position-absolute top-0 end-0 m-2">ONA</span>
-                 <a href="detail.html">
+                 <a href="?page=detail">
                      <img src="C/C (9).webp" class="card-img-top" alt="New Release">
                 </a>
                 <span class="badge bg-purple position-absolute bottom-0 start-0 m-2">Ep 41</span>

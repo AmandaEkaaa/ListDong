@@ -1,6 +1,8 @@
+<?php include "Komponen/Header.php"?>
 <body>
 
 <!-- Navbar -->
+ <?php include "Komponen/navbar.php" ;?>
 
 
 <!-- Hero Section -->
@@ -620,33 +622,12 @@
    
   </div>
 
- <a href="view.html" class="btn btn-purple mt-3 mx-auto d-block">View All</a>
+ <a href="?page=view" class="btn btn-purple mt-3 mx-auto d-block">View All</a>
 
 
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
