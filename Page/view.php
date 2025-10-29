@@ -381,3 +381,6 @@
     </div>
   </div>
 </div>
+
+<?php include "Komponen/footer.php" ?>
+

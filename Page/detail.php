@@ -58,3 +58,4 @@ Enam ribu tahun yang lalu di Benua Shengmo, manusia hidup dengan makmur dan bany
     </tbody>
   </table>
 </div>
+<?php include "Komponen/footer.php" ?>

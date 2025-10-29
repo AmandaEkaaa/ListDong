@@ -2,7 +2,7 @@
 <?php include "Komponen/komponen-css/bomark.php"?>
 <body>
   
-<?php include "Komponen/navbar.php" ;?>
+<?php include "Komponen/navbar.php"?>
 
 
 <div class="container my-5">
@@ -215,4 +215,4 @@
   </div>
 </div>
 
-i
+<?php include "Komponen/footer.php" ?>
