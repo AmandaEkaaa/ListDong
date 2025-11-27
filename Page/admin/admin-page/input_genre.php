@@ -1,34 +1,30 @@
-<div class="row">
-    <div class="col-md-6 offset-md-3">
-        <h3 class="text-center mb-3">Tambah Genre</h3>
+<div class="container mt-4" style="max-width: 600px;">
 
-        <form action="" method="post">
-            <div class="form-group mb-3">
-                <label for="nama">Nama Genre</label>
-                <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan nama genre" required>
-            </div>
+    <div class="card shadow border-0 rounded-4">
+        <div class="card-body p-4">
 
-            <div class="text-center">
-                <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
-            </div>
-        </form>
+            <h4 class="fw-bold mb-3" style="color:#6c63ff;">🎵 Tambah Genre Baru</h4>
+            <p class="text-muted mb-4">Isi form di bawah untuk menambahkan genre baru ya sayang 💖</p>
 
-        <?php
-        // proses penyimpanan
-        if (isset($_POST['simpan'])) {
-            $nama = $_POST['nama'];
+            <form method="POST" action="?page=genre&action=create">
+                
+                <!-- Input Nama Genre -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Nama Genre</label>
+                    <input type="text" class="form-control form-control-lg rounded-3" 
+                           name="nama" placeholder="Contoh: Romance, Action, Fantasy..." required>
+                </div>
 
-            // query insert ke database
-            $query = "INSERT INTO genres (nama) VALUES ('$nama')";
-            $result = mysqli_query($conn, $query);
+                <!-- Tombol -->
+                <button type="submit" name="submit" 
+                    class="btn w-100 text-white fw-semibold rounded-3"
+                    style="background:#6c63ff;">
+                    💾 Simpan Genre
+                </button>
 
-            if ($result) {
-                echo "<div class='alert alert-success mt-3 text-center'>Data genre berhasil ditambahkan!</div>";
-                echo "<meta http-equiv='refresh' content='1;url=?page=genre'>";
-            } else {
-                echo "<div class='alert alert-danger mt-3 text-center'>Gagal menambahkan data!</div>";
-            }
-        }
-        ?>
+            </form>
+
+        </div>
     </div>
+
 </div>

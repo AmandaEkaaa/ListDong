@@ -1,26 +1,42 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-   
-}
-
 require_once(__DIR__ . '/../config/Database.php');
+require_once(__DIR__ . '/../model/models.php');
+require_once(__DIR__ . '/../controller/GenreController.php');
 
 $page = $_GET['page'] ?? 'dashboard';
+$action = $_GET['action'] ?? 'index';
 
-switch ($page) {
+$genre = new GenreController();
+
+switch ($page){
+
     case 'dashboard':
-        include(__DIR__ . '/../Page/admin/admin-page/dhasboard.php');
+        include __DIR__ . '/../Page/admin/loyo.php';
         break;
 
     case 'genre':
-        include(__DIR__ . '/../Page/admin/admin-page/input_genre.php');
-        break;
-    case 'user':
-        include(__DIR__ . '/../Page/admin/admin-page/input_user.php');
+        switch ($action) {
+            case 'index':
+                $genre->index();
+                break;
+
+            case 'create':
+                $genre->create();
+                if(isset($_POST['submit'])){
+                    $genre->store();
+                }
+                break;
+                
+            case 'delete':
+                $genre->delete();
+                break;    
+
+            default:
+                echo "Action tidak ditemukan";
+        }
         break;
 
     default:
-        echo "<h3 style='padding:20px'>Halaman tidak ditemukan</h3>";
-        break;
+        echo "Halaman tidak ditemukan";
+        
 }
-?>

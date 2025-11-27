@@ -8,10 +8,11 @@
 </head>
 <body>
     <body data-bs-spy="scroll" data-bs-target="#header" tabindex="0">
-       <?php 
-            // konten
-          include "route/web.php";
-        ?>
+    
+        <?php
+include __DIR__ . '/route/web.php';
+?>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 

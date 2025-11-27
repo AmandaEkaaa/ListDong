@@ -1,8 +1,9 @@
 <?php include "Komponen/Header.php"?>
 <body>
-
 <!-- Navbar -->
  <?php include "Komponen/navbar.php" ?>
+ <?php include "Komponen/komponen-css/v2.php" ?>
+
 
 
 <!-- Hero Section -->
@@ -624,11 +625,40 @@
 
  <a href="?page=view" class="btn btn-purple mt-3 mx-auto d-block">View All</a>
 
-
-
-
-
 </div>
+
+ <!-- Tombol chatbot (menuju index.html) -->
+ <!-- Tombol Chatbot -->
+<a href="chatdong/index.html" class="chatbot-btn">
+  💬
+</a>
+
+<style>
+.chatbot-btn {
+  position: fixed;         /* selalu di layar, bukan di dalam layout */
+  bottom: 25px;            /* jarak dari bawah layar */
+  right: 25px;              /* jarak dari kiri layar */
+  width: 60px;
+  height: 60px;
+  background-color: #a020f0;  /* ungu neon biar nyatu dengan tema */
+  color: white;
+  border-radius: 50%;       /* bikin bulat */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 0 15px rgba(160, 32, 240, 0.8); /* efek glow ungu */
+  cursor: pointer;
+  z-index: 999999;          /* paling depan */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chatbot-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(255, 0, 255, 1);
+}
+</style>
+
 
 <?php include "Komponen/footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
