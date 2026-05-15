@@ -22,10 +22,21 @@ switch ($page){
 
             case 'create':
                 $genre->create();
-                if(isset($_POST['submit'])){
-                    $genre->store();
-                }
                 break;
+
+            case 'store': // Tambahkan case store agar lebih rapi
+                $genre->store();
+                break;
+
+            // --- TAMBAHKAN CASE INI ---
+            case 'edit':
+                $genre->edit(); // Ini yang akan membuat variabel $genre_data ada
+                break;
+
+            case 'update':
+                $genre->update(); // Ini untuk memproses simpan perubahan
+                break;
+            // --------------------------
                 
             case 'delete':
                 $genre->delete();
@@ -38,5 +49,4 @@ switch ($page){
 
     default:
         echo "Halaman tidak ditemukan";
-        
 }
